@@ -16,7 +16,7 @@ ul li{
 /* Modifica el header para que la lista se vea como un menu */
 header{
     display: flex; /*define contenedor felible*/
-    background-color: rgb(119, 124, 124); /*color al contenedor*/
+    background-color: #0a0908; /*color al contenedor*/
     align-items: center; /*alinea todo al centro de la flexbox*/
     justify-content: space-between; /*justificar el contenido como si fuera un parrafo en word*/
 }
@@ -76,6 +76,11 @@ footer nav ul a{
     right: 39px; 
 }
 
+.section-2 img {
+    width: 100%;
+    border-radius: 10px;
+}
+
 .section-3 {
     background-color: white;
     display: flex;
@@ -87,11 +92,11 @@ footer nav ul a{
     background-color: white;
     color: black;
     text-align: center;
+   
 }
 
 .section-3 img {
-    width: 300px;
-    height: 250px;
+    width: 100%;
     border-radius: 10px;
     border: solid blue;
 }
@@ -103,4 +108,61 @@ footer nav ul a{
     display: flex;
     text-align: left;
     max-width: 300px;
+}
+
+
+
+.f-header{
+    display: flex;
+    flex-direction: column;
+    font-family: cursive; font-size: large;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #014f86;
+    border-radius: 30px;
+    width: 80%;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 50px;
+    color: white;
+}
+
+.form-container{
+    background: white;
+    border: 2px solid blue;
+    border-radius: 15px;
+    width: 85%;
+    padding: 50px;
+    margin: 30px auto;
+}
+
+.form-row {
+    margin-bottom: 20px;
+}
+
+.form-row input[type="text"],
+.form-row input[type="email"],
+.form-row textarea {
+    background-color: #a9d6e5;
+    border: 1px solid blue;
+    border-radius: 9px;
+    width: 100%;
+    padding: 9px;
+}
+
+.form-row button {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(45deg, #a9d6e5, #89c2d9);
+    border-radius: 5px;
+    padding: 10px 40px;
+    cursor: pointer;
+    border: none;
+    transition: background 0.3s ease;
+}
+
+.form-row button:hover{
+    background: linear-gradient(45deg, #a9d6e5, #89c2d9);
 }
